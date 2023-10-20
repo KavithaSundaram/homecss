@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffff;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    background-color:#cccc;
+    justify-content: space-between;
+    height: 70px;
+
+}
+#nav-head{
+    color: blue;
+    font-size: 25px;
+    padding: 0px 10px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 10px;
+    list-style-type: none;
+}
+@media only screen and (max-width:600px) {
+    .navbar li{
+       visibility:hidden ;
+    }   
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+}
+.navbar li a:hover{
+    color: white;
+    background-color: blue;
+}
+.company{
+    background-image: url(http://source.unsplash.com/240x320/?architect?1);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    color: brown;
+}
+/*@media only screen and (min-width:600px) {
+    .company{
+        visibility:hidden;
+    }   
+}*/
+/*.page{
+    transform: translateY(-150px);
+}*/
+.p-head{
+    font-size: 20px;
+} 
+#link a{
+    color: black;
+    text-decoration: none;
+}
+#link a:hover{
+    background-color: #ccc;
+}
+.hou-name{
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px double black;   
+}
+.h-name{
+    text-align: center;
+    font-size: 25px;
+    background-color: black;
+    color: #ccc;
+    width: 240px;
+}
+.p-image{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    grid-template-columns: repeat(4,300px);
+}
+@media only screen and (max-width:600px) {
+    .p-image{
+        grid-template-columns: repeat(1,300px);
+    }   
+}
+.about{
+    font-size: 25px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-head{
+    padding:0px 20px;
+}
+.about-detail{
+    padding: 20px;
+}
+.person{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    text-align: left;
+    grid-template-columns: repeat(4,300px);
+}
+@media only screen and (max-width:600px) {
+    .person{
+        grid-template-columns: repeat(1,300px);
+    }   
+}
+.person-detail{
+    font-size: 20px;
+    padding: 10px;
+}
+.person-detail p{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+.person-detail #btn{
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+}
+.person-detail #btn:hover{
+    background-color: #ccc;
+}
+.contact{
+    font-size: 22px;
+    text-align: left;
+}
+form{
+    width: 90%;
+    margin: 2%;
+    justify-content: center;
+    color: black;
+    padding: 30px;
+    box-shadow: rgba(0,0,0,0.6)0px 2px 4px 0px inset;
+}
+input,textarea,placeholder{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    box-shadow: rgba(0,0,0,0.06)0px 2px 4px 0px inset;
+    background-color: transparent;
+}
+#btn1{
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    margin: 0% 40%;
+    background-color: green;
+    border-radius: 5px;
+}
+.map{
+    margin:0% 5%;
+}
+.footer{
+    height: 200px;
+    background-color:#cccc;
+    color:black;
+    font-weight: bold;
+    padding:80px;
+    font-size: 25px;
+    text-align: center;
+}
